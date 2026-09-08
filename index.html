@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloomie — Bouquet & Fresh Flower</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#home" class="brand">bloomie<span>✿</span></a>
+  <nav><a href="#home">Home</a><a href="#bouquets">Bouquets</a><a href="#fresh">Fresh Flower</a><a href="#reviews">Reviews</a></nav>
+  <button class="cart" onclick="openCart()">🛍 <span id="count">0</span></button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">FLOWERS • LOVE • LITTLE MOMENTS</p>
+    <h1>Flowers that make<br>every moment <em>prettier.</em></h1>
+    <p>Rangkaian bouquet cantik dan fresh flower yang dibuat dengan penuh perhatian. Pilih warna bouquet favoritmu dan buat hadiah jadi lebih personal. ♡</p>
+    <a class="btn" href="#bouquets">Shop the bouquet →</a>
+    <div class="notes"><span>✿</span> Fresh flowers &nbsp; <span>♡</span> Handcrafted &nbsp; <span>✦</span> Pretty packaging</div>
+  </div>
+  <div class="hero-art">
+    <div class="blob"></div>
+    <div class="flower-art">
+      <div class="stem s1"></div><div class="stem s2"></div><div class="stem s3"></div><div class="stem s4"></div>
+      <div class="bloom b1">✿</div><div class="bloom b2">✿</div><div class="bloom b3">✿</div><div class="bloom b4">✿</div>
+    </div>
+    <span class="spark sp1">✦</span><span class="spark sp2">♡</span>
+  </div>
+</section>
+
+<section class="section" id="bouquets">
+  <div class="heading">
+    <div><p class="eyebrow">OUR BOUQUETS</p><h2>Choose your bloom ♡</h2></div>
+    <p>Pick a bouquet, then choose your favorite wrapping color.</p>
+  </div>
+  <div class="product-grid" id="products"></div>
+</section>
+
+<section class="fresh" id="fresh">
+  <div class="fresh-copy">
+    <p class="eyebrow">FRESH FLOWER</p>
+    <h2>Fresh from the flower shop,<br><em>made with love.</em></h2>
+    <p>Kami menggunakan bunga segar untuk rangkaian pilihan tertentu agar bouquet terasa lebih spesial. Setiap rangkaian dibuat dengan komposisi yang manis, natural, dan cocok untuk hadiah ulang tahun, wisuda, anniversary, atau sekadar bilang “aku sayang kamu”.</p>
+    <div class="fresh-points"><div><b>01</b><span><strong>Fresh & Pretty</strong>Bunga dipilih dengan tampilan yang cantik.</span></div><div><b>02</b><span><strong>Handcrafted</strong>Dirangkai satu per satu dengan penuh perhatian.</span></div><div><b>03</b><span><strong>Gift Ready</strong>Packaging manis, siap diberikan sebagai hadiah.</span></div></div>
+  </div>
+  <div class="fresh-card"><div class="mini-bouquet">🌷</div><p>FRESH FLOWER</p><strong>made for your special day</strong></div>
+</section>
+
+<section class="color-section">
+  <div class="center"><p class="eyebrow">YOUR COLOR, YOUR STYLE</p><h2>Pilih warna bouquet-mu 🎀</h2><p>Setiap bouquet bisa dibuat lebih personal dengan pilihan wrapping favoritmu.</p></div>
+  <div class="color-options">
+    <button class="color active" data-color="Blush Pink"><i style="background:#eaa2b9"></i><span>Blush Pink</span></button>
+    <button class="color" data-color="Butter Yellow"><i style="background:#f2d879"></i><span>Butter Yellow</span></button>
+    <button class="color" data-color="Ivory"><i style="background:#eee4d0"></i><span>Ivory</span></button>
+    <button class="color" data-color="Baby Blue"><i style="background:#b9d6df"></i><span>Baby Blue</span></button>
+    <button class="color" data-color="Sage Green"><i style="background:#b9c8ae"></i><span>Sage Green</span></button>
+  </div>
+  <div class="selected">Selected wrapping: <strong id="selectedColor">Blush Pink</strong> ♡</div>
+</section>
+
+<section class="section reviews" id="reviews">
+  <div class="center"><p class="eyebrow">CUSTOMER LOVE</p><h2>What they say ♡</h2><p>Little messages from happy customers.</p></div>
+  <div class="review-grid">
+    <article><div class="stars">★★★★★</div><p>“Bouquet-nya cantik banget dan warnanya soft. Packaging-nya juga bikin happy pas buka!”</p><strong>— Aurel, Jakarta</strong></article>
+    <article><div class="stars">★★★★★</div><p>“Aku pilih butter yellow dan hasilnya gemas banget. Bunganya fresh dan rangkaiannya rapi.”</p><strong>— Naya, Bandung</strong></article>
+    <article><div class="stars">★★★★★</div><p>“Cocok banget buat hadiah wisuda. Semua detailnya cantik dan kelihatan premium.”</p><strong>— Caca, Surabaya</strong></article>
+  </div>
+</section>
+
+<section class="about">
+  <div><p class="eyebrow">ABOUT BLOOMIE</p><h2>A little bouquet,<br><em>a lot of happiness.</em></h2></div>
+  <p>Bloomie hadir untuk membuat momen sederhana terasa lebih spesial. Dari fresh flower yang lembut sampai bouquet dengan wrapping warna favoritmu, semuanya dirangkai untuk membawa senyum kecil kepada orang yang kamu sayangi. ✿</p>
+</section>
+</main>
+
+<footer><div class="brand">bloomie<span>✿</span></div><p>Flowers, wrapped with love ♡</p><p>© 2026 Bloomie</p></footer>
+
+<div class="toast" id="toast">Bouquet ditambahkan ♡</div>
+<div class="modal" id="modal"><div class="modal-box"><button class="close" onclick="closeCart()">×</button><h2>Your bouquet bag</h2><p class="modal-sub">Wrapping: <strong id="modalColor">Blush Pink</strong></p><div id="items"></div><div class="total"><span>Total</span><b id="total">Rp0</b></div><button class="btn checkout" onclick="checkout()">Order via WhatsApp</button></div></div>
+<script src="script.js"></script>
+</body>
+</html>
