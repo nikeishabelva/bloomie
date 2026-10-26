@@ -1,0 +1,22 @@
+{
+  "name": "Bloomie — Bouquet & Fresh Flower",
+  "short_name": "Bloomie",
+  "description": "Rangkaian bouquet cantik dan fresh flower yang dibuat dengan penuh perhatian. Pilih warna bouquet favoritmu.",
+  "start_url": "/bloomie/",
+  "display": "standalone",
+  "background_color": "#fffaf5",
+  "theme_color": "#eaa2b9",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

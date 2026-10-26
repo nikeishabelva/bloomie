@@ -1,0 +1,11 @@
+# robots.txt for Bloomie — Bouquet & Fresh Flower
+# https://nikeishabelva.github.io/bloomie/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://nikeishabelva.github.io/bloomie/sitemap.xml
+
+# Crawl-delay optional (GitHub Pages is static, no need)
+# Crawl-delay: 1
