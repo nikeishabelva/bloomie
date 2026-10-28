@@ -4,8 +4,8 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
+# Sitemap
 Sitemap: https://nikeishabelva.github.io/bloomie/sitemap.xml
 
-# Crawl-delay optional (GitHub Pages is static, no need)
-# Crawl-delay: 1
+# Artikel & halaman penting boleh di-crawl
+Allow: /artikel/
