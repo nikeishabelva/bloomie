@@ -1,11 +1,5 @@
-# robots.txt for Bloomie — Bouquet & Fresh Flower
-# https://nikeishabelva.github.io/bloomie/
-
+# robots.txt for Bloomie
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://nikeishabelva.github.io/bloomie/sitemap.xml
-
-# Artikel & halaman penting boleh di-crawl
-Allow: /artikel/

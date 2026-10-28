@@ -1,62 +1,28 @@
 # Bloomie — Bouquet & Fresh Flower Shop
 
-Website toko bouquet dengan warna dasar **putih, pink, dan butter yellow**, responsive dan siap di-upload ke GitHub Pages.
-
 **Live:** https://nikeishabelva.github.io/bloomie/
 
----
+## Cara Deploy (paling mudah)
 
-## Fitur
+1. Extract zip ini.
+2. Upload **SEMUA file** (tanpa folder tambahan) ke root repository GitHub `nikeishabelva/bloomie` branch `main`.
+3. Pastikan Settings → Pages → Source = branch `main` / root.
+4. Tunggu 1–2 menit.
 
-- Bouquet & fresh flower collection
-- Pilihan warna wrapping bouquet
-- Keranjang belanja + Checkout WhatsApp
-- Customer reviews
-- **SEO lengkap** (meta, Open Graph, Twitter Card, JSON-LD, robots.txt, sitemap.xml, favicon)
-- **3 Artikel SEO** siap ranking:
-  1. 10 Jenis Bunga Terpopuler untuk Buket + Maknanya
-  2. Ide Buket Bunga untuk Hadiah Wisuda
-  3. Cara Merawat Bouquet agar Tahan Lama
+## File penting
 
-## Struktur File
+- `index.html` — halaman utama
+- `jenis-bunga-buket.html` — Artikel 1
+- `buket-wisuda.html` — Artikel 2
+- `cara-merawat-bouquet.html` — Artikel 3
+- `style.css`, `script.js`
+- `robots.txt`, `sitemap.xml`
+- favicon + og-image.png
 
-```
-├── index.html
-├── style.css
-├── script.js
-├── robots.txt
-├── sitemap.xml
-├── site.webmanifest
-├── og-image.png
-├── favicon.ico + favicon-*.png
-├── apple-touch-icon.png
-├── android-chrome-*.png
-└── artikel/
-    ├── jenis-bunga-buket.html
-    ├── buket-wisuda.html
-    └── cara-merawat-bouquet.html
-```
+## Link Artikel setelah live
 
-## Cara Deploy
+- https://nikeishabelva.github.io/bloomie/jenis-bunga-buket.html
+- https://nikeishabelva.github.io/bloomie/buket-wisuda.html
+- https://nikeishabelva.github.io/bloomie/cara-merawat-bouquet.html
 
-1. Upload **semua isi folder** ini ke repo `nikeishabelva/bloomie` (branch `main`).
-2. Settings → Pages → Source: branch `main` / root.
-3. Tunggu 1–2 menit → cek https://nikeishabelva.github.io/bloomie/
-
-## Setelah Deploy (SEO)
-
-1. Google Search Console sudah diverifikasi? Submit ulang sitemap: `sitemap.xml`
-2. Cek artikel di Facebook Debugger / opengraph.xyz
-3. Ganti nomor WhatsApp di `script.js` (fungsi `checkout()`)
-
-## Artikel yang Ditambahkan
-
-| Judul | URL | Fokus Keyword |
-|-------|-----|---------------|
-| 10 Jenis Bunga Terpopuler untuk Buket + Maknanya | /artikel/jenis-bunga-buket.html | jenis bunga buket, makna bunga |
-| Ide Buket Bunga untuk Hadiah Wisuda | /artikel/buket-wisuda.html | buket wisuda, hadiah wisuda |
-| Cara Merawat Bouquet agar Tahan Lama | /artikel/cara-merawat-bouquet.html | cara merawat bunga, agar bunga awet |
-
----
-
-web bunga · dibuat dengan ♡
+Setelah deploy, submit ulang sitemap di Google Search Console: `sitemap.xml`
