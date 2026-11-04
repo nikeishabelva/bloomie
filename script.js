@@ -6,7 +6,7 @@ const products = [
     type: "Fresh Flower",
     price: 145000,
     desc: "Rangkaian soft pink dengan mawar dan baby’s breath. Cocok untuk anniversary & pernyataan cinta.",
-    img: "https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=600"
+    img: "images/blush-love.jpg"
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const products = [
     type: "Fresh Flower",
     price: 155000,
     desc: "Nuansa butter yellow yang hangat dan cerah. Perfect untuk ulang tahun atau cheer-up gift.",
-    img: "https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&w=600"
+    img: "images/butter-bloom.jpg"
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const products = [
     type: "Bouquet",
     price: 135000,
     desc: "Bouquet pastel pink yang manis dan elegan. Gift-ready dengan wrapping pilihanmu.",
-    img: "https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=600"
+    img: "images/sweet-pink.jpg"
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const products = [
     type: "Fresh Flower",
     price: 175000,
     desc: "Komposisi garden-style yang natural dan full. Terasa seperti pelukan dari taman.",
-    img: "https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=600&q=80"
+    img: "images/garden-hug.jpg"
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const products = [
     type: "Bouquet",
     price: 125000,
     desc: "Bouquet kecil cerah dengan sentuhan kuning. Ideal untuk hadiah kecil yang bermakna.",
-    img: "https://images.pexels.com/photos/74512/pexels-photo-74512.jpeg?auto=compress&cs=tinysrgb&w=600"
+    img: "images/little-sunshine.jpg"
   },
   {
     id: 6,
@@ -46,7 +46,7 @@ const products = [
     type: "Fresh Flower",
     price: 165000,
     desc: "Mawar merah muda klasik yang timeless. Untuk momen spesial yang ingin dikenang.",
-    img: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80"
+    img: "images/rosy-day.jpg"
   },
   {
     id: 7,
@@ -54,7 +54,7 @@ const products = [
     type: "Bouquet",
     price: 140000,
     desc: "Daisy dan filler soft yang ceria. Ringan, segar, dan mudah disukai siapa saja.",
-    img: "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=600&q=80"
+    img: "images/pretty-daisy.jpg"
   },
   {
     id: 8,
@@ -62,7 +62,7 @@ const products = [
     type: "Fresh Flower",
     price: 185000,
     desc: "Rangkaian pastel dreamy premium. Komposisi full dan mewah untuk momen istimewa.",
-    img: "https://images.pexels.com/photos/931162/pexels-photo-931162.jpeg?auto=compress&cs=tinysrgb&w=600"
+    img: "images/dreamy-pastel.jpg"
   }
 ];
 
