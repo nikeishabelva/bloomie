@@ -6,7 +6,7 @@ const products = [
     type: "Fresh Flower",
     price: 145000,
     desc: "Rangkaian soft pink dengan mawar dan baby’s breath. Cocok untuk anniversary & pernyataan cinta.",
-    img: "images/blush-love.jpg"
+    img: "blush-love.jpg"
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const products = [
     type: "Fresh Flower",
     price: 155000,
     desc: "Nuansa butter yellow yang hangat dan cerah. Perfect untuk ulang tahun atau cheer-up gift.",
-    img: "images/butter-bloom.jpg"
+    img: "butter-bloom.jpg"
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const products = [
     type: "Bouquet",
     price: 135000,
     desc: "Bouquet pastel pink yang manis dan elegan. Gift-ready dengan wrapping pilihanmu.",
-    img: "images/sweet-pink.jpg"
+    img: "sweet-pink.jpg"
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const products = [
     type: "Fresh Flower",
     price: 175000,
     desc: "Komposisi garden-style yang natural dan full. Terasa seperti pelukan dari taman.",
-    img: "images/garden-hug.jpg"
+    img: "garden-hug.jpg"
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const products = [
     type: "Bouquet",
     price: 125000,
     desc: "Bouquet kecil cerah dengan sentuhan kuning. Ideal untuk hadiah kecil yang bermakna.",
-    img: "images/little-sunshine.jpg"
+    img: "little-sunshine.jpg"
   },
   {
     id: 6,
@@ -46,7 +46,7 @@ const products = [
     type: "Fresh Flower",
     price: 165000,
     desc: "Mawar merah muda klasik yang timeless. Untuk momen spesial yang ingin dikenang.",
-    img: "images/rosy-day.jpg"
+    img: "rosy-day.jpg"
   },
   {
     id: 7,
@@ -54,7 +54,7 @@ const products = [
     type: "Bouquet",
     price: 140000,
     desc: "Daisy dan filler soft yang ceria. Ringan, segar, dan mudah disukai siapa saja.",
-    img: "images/pretty-daisy.jpg"
+    img: "pretty-daisy.jpg"
   },
   {
     id: 8,
@@ -62,7 +62,7 @@ const products = [
     type: "Fresh Flower",
     price: 185000,
     desc: "Rangkaian pastel dreamy premium. Komposisi full dan mewah untuk momen istimewa.",
-    img: "images/dreamy-pastel.jpg"
+    img: "dreamy-pastel.jpg"
   }
 ];
 
